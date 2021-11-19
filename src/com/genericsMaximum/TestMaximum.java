@@ -8,15 +8,15 @@ public class TestMaximum {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("Enter First Value: ");
-		float first = scan.nextFloat();
+		String first = scan.next();
 		
 		System.out.print("Enter Second Value: ");
-		float second = scan.nextFloat();
+		String second = scan.next();
 		
 		System.out.print("Enter Third Value: ");
-		float third = scan.nextFloat();
+		String third = scan.next();
 		
-		max.maxFloat(first,second,third);
+		max.maxString(first,second,third);
 				
 	}
 }
