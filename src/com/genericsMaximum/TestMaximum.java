@@ -23,7 +23,13 @@ public class TestMaximum {
 				
 				System.out.print("Enter Third Value: ");
 				Integer third = scan.nextInt();
-				max = new Maximum<Integer>(first, second, third);
+				
+				System.out.print("Enter Fourth Value: ");
+				Integer fourth = scan.nextInt();
+				
+				System.out.print("Enter Fifth Value: ");
+				Integer fifth = scan.nextInt();
+				max = new Maximum<Integer>(first, second, third,fourth,fifth);
 				max.findMax();
 				break;
 			}				
@@ -37,7 +43,13 @@ public class TestMaximum {
 				
 				System.out.print("Enter Third Value: ");
 				Float third = scan.nextFloat();
-				max = new Maximum<Float>(first, second, third);
+				
+				System.out.print("Enter Fourth Value: ");
+				Float fourth = scan.nextFloat();
+				
+				System.out.print("Enter Fifth Value: ");
+				Float fifth = scan.nextFloat();
+				max = new Maximum<Float>(first, second, third,fourth,fifth);
 				max.findMax();
 				break;
 			}
@@ -51,7 +63,13 @@ public class TestMaximum {
 				
 				System.out.print("Enter Third value ");
 				String third = scan.next();
-				max = new Maximum<String>(first, second, third);
+				
+				System.out.print("Enter Fourth Value: ");
+				String fourth = scan.next();
+				
+				System.out.print("Enter Fifth value ");
+				String fifth = scan.next();
+				max = new Maximum<String>(first, second, third,fourth,fifth);
 				max.findMax();
 				break;
 			}
